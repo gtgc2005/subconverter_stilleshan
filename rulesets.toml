@@ -59,6 +59,18 @@ group = "🔰 节点选择"
 ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
 
 [[rulesets]]
+group = "🚀 中继链路"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
+
+[[rulesets]]
+group = "🚝 前置节点"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
+
+[[rulesets]]
+group = "✈️ 后置节点"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
+
+[[rulesets]]
 group = "🍎 苹果服务"
 ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list"
 
