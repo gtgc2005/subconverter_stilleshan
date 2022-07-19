@@ -1,7 +1,22 @@
 [[custom_groups]]
-name = "🔰 节点选择"
+name = "🚀 中继链路"
+type = "relay"
+rule = ["[]🚝 前置节点", "[]✈️ 后置节点"]
+
+[[custom_groups]]
+name = "🚝 前置节点"
 type = "select"
 rule = ["[]♻️ 自动选择", "[]🎯 全球直连", ".*"]
+
+[[custom_groups]]
+name = "✈️ 后置节点"
+type = "select"
+rule = ["[]♻️ 自动选择", "[]🎯 全球直连", ".*"]
+
+[[custom_groups]]
+name = "🔰 节点选择"
+type = "select"
+rule = ["[]🚀 中继链路","[]♻️ 自动选择", "[]🎯 全球直连", ".*"]
 
 [[custom_groups]]
 name = "♻️ 自动选择"
@@ -14,6 +29,7 @@ interval = 300
 name = "🎥 NETFLIX"
 type = "select"
 rule = [
+    "[]🚀 中继链路",
     "[]🔰 节点选择",
     "[]♻️ 自动选择",
     "[]🎯 全球直连",
@@ -23,7 +39,8 @@ rule = [
 [[custom_groups]]
 name = "⛔️ 广告拦截"
 type = "select"
-rule = ["[]🛑 全球拦截",
+rule = ["[]🚀 中继链路",
+"[]🛑 全球拦截",
 "[]🎯 全球直连",
 "[]🔰 节点选择"
 ]
@@ -31,14 +48,16 @@ rule = ["[]🛑 全球拦截",
 [[custom_groups]]
 name = "🚫 运营劫持"
 type = "select"
-rule = ["[]🛑 全球拦截",
+rule = ["[]🚀 中继链路",
+"[]🛑 全球拦截",
 "[]🎯 全球直连",
 "[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "🌍 国外媒体"
 type = "select"
-rule = ["[]🔰 节点选择",
+rule = ["[]🚀 中继链路",
+"[]🔰 节点选择",
 "[]♻️ 自动选择",
 "[]🎯 全球直连",
 ".*"]
@@ -46,28 +65,32 @@ rule = ["[]🔰 节点选择",
 [[custom_groups]]
 name = "🌏 国内媒体"
 type = "select"
-rule = ["[]🎯 全球直连",
+rule = ["[]🚀 中继链路",
+"[]🎯 全球直连",
 "(HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|hk|港|tw)",
 "[]🔰 节点选择"]
 
 [[custom_groups]]
 name = "Ⓜ️ 微软服务"
 type = "select"
-rule = ["[]🎯 全球直连",
+rule = ["[]🚀 中继链路",
+"[]🎯 全球直连",
 "[]🔰 节点选择",
 ".*"]
 
 [[custom_groups]]
 name = "📲 电报信息"
 type = "select"
-rule = ["[]🔰 节点选择",
+rule = ["[]🚀 中继链路",
+"[]🔰 节点选择",
 "[]🎯 全球直连",
 ".*"]
 
 [[custom_groups]]
 name = "🍎 苹果服务"
 type = "select"
-rule = ["[]🔰 节点选择",
+rule = ["[]🚀 中继链路",
+"[]🔰 节点选择",
 "[]🎯 全球直连",
 "[]♻️ 自动选择",
 ".*"]
@@ -85,7 +108,8 @@ rule = ["[]REJECT", "[]DIRECT"]
 [[custom_groups]]
 name = "🐟 漏网之鱼"
 type = "select"
-rule = ["[]🔰 节点选择",
+rule = ["[]🚀 中继链路",
+"[]🔰 节点选择",
 "[]🎯 全球直连",
 "[]♻️ 自动选择",
 ".*"]
