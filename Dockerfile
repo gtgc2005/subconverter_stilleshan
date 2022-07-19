@@ -9,7 +9,7 @@ RUN apk add tzdata && \
     echo "Asia/Shanghai" > /etc/timezone && \
     apk del tzdata
 
-COPY groups.txt rulesets.txt /base/snippets/
+COPY groups.toml rulesets.toml /base/snippets/
 
 EXPOSE 25500
 
