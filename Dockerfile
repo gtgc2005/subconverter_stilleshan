@@ -10,6 +10,7 @@ RUN apk add tzdata && \
     apk del tzdata
 
 COPY groups.toml rulesets.toml /base/snippets/
+COPY pref.yml /base
 
 EXPOSE 25500
 
