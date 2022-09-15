@@ -4,7 +4,7 @@
 🚀 中继链路2`relay`[]🚝 前置节点2`[]✈️ 后置节点2`
 🚝 前置节点2`select`[]🎯 DIRECT`.*
 ✈️ 后置节点2`select`[]🎯 DIRECT`.*
-🔰 PROXY`select`[]🎯 DIRECT`[]🔰 中继链路`.*
+🔰 PROXY`select`[]🎯 DIRECT`[]🔰 中继链路1`[]🔰 中继链路2`.*
 🎬 Media`select`(香港|HK|hk|🇭🇰|台湾|TW|tw|新加坡|SG|sg|🇸🇬)
 ▶️ YouTube`select`[]🔰 PROXY`[]🎬 Media`.*
 🍿 Netflix`select`[]🔰 PROXY`[]🎬 Media`.*
