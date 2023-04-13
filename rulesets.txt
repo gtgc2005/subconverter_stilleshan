@@ -8,12 +8,6 @@
 Ⓜ️ Microsoft,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list
 📲 Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list
 🔰 PROXY,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-🚀 中继链路1,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-🚝 前置节点1,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-✈️ 后置节点1,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-🚀 中继链路2,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-🚝 前置节点2,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
-✈️ 后置节点2,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
 🎯 DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list
 🎯 DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list
 🎯 DIRECT,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list
