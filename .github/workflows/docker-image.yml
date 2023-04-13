@@ -1,9 +1,6 @@
 name: "build for docker"
 
-on:
-  push:
-    tags:
-      - v*
+on: [push]
 
 jobs:
   build:
